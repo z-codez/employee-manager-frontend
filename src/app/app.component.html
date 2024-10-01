@@ -8,6 +8,9 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 
-<div *ngFor="let employee of employees">
-  <div>{{employee.name}}</div>
+
+<div>
+  @for (employee of employees; track employee.id) {
+    <div>{{employee.name}}</div>
+  }
 </div>
