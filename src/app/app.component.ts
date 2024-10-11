@@ -4,6 +4,7 @@ import {Employee} from "./employee";
 import {EmployeeService} from "./employee.service";
 import {HttpErrorResponse} from "@angular/common/http";
 
+
 @Component({
   selector: 'app-root',
   standalone: true,
@@ -12,6 +13,7 @@ import {HttpErrorResponse} from "@angular/common/http";
   styleUrl: './app.component.css'
 })
 export class AppComponent implements OnInit {
+
   title = 'employee-manager-frontend';
 
   employees: Employee[] = [];

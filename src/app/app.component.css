@@ -1,0 +1,24 @@
+body {
+  box-sizing: content-box;
+}
+
+section {
+  /*width: 285px;*/
+  /*height: 370px;*/
+}
+
+
+figure {
+  display: inline-block;
+  width: fit-content;
+}
+img {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.name-occupation {
+  display: inline-block;
+  padding-left: 200px;
+}
